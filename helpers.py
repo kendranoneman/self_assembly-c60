@@ -28,3 +28,4 @@ def make_filenames(jobname):
     l="runs/"+jobname+"/log.log"
     checkdir("runs/"+jobname)
     return m,i,t,e,l
+

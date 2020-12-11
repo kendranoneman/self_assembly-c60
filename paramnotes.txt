@@ -1,0 +1,16 @@
+#SET mix q e T N cc_eps                                  
+
+#mix1: 1:1 R:C        
+#mix2: 1:2 R:C
+
+#q1: qA=0 qB=0 qC=0
+#q2: qA=1 qB=-1 qC=0
+#q3: correct full charges
+#q4: correct full charges scaled to have correct dipole moment
+
+#e1: AA=1 BB=1 CC=1 AB=.5 
+#e2: AA=1 BB=.2 CC=1 AB=.2
+#e3: BB=0.06, AB=0.25: approximately correct Oxygen interactions from opls and martini C60
+#e4: AA=1 BB=0.06 CC=X AB=0.25 AC=1: cc epsilons are being changed
+
+#Interaction Set #6: q1-e4
